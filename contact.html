@@ -1,0 +1,57 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>مكتبة جميلة - تواصل معنا</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="container">
+    <header class="header">
+      <div class="brand">
+        <div class="logo">مك</div>
+        <div>
+          <div class="site-title">مكتبة جميلة</div>
+          <div class="site-sub">تواصل معنا</div>
+        </div>
+      </div>
+      <nav class="nav">
+        <a href="home.html">الرئيسية</a>
+        <a href="books.html">الكتب</a>
+        <a href="contact.html" class="active">تواصل معنا</a>
+      </nav>
+    </header>
+
+    <section class="contact-card">
+      <h2 style="margin-bottom:10px">راسلنا</h2>
+      <p class="small" style="margin-bottom:12px">املأ النموذج أدناه أو استخدم بيانات التواصل المباشرة.</p>
+
+      <form action="#" method="post" onsubmit="alert('هذه نسخة تجريبية - لا يتم الإرسال فعلياً'); return false;">
+        <div class="form-row">
+          <input type="text" name="name" placeholder="الاسم" required>
+          <input type="email" name="email" placeholder="البريد الإلكتروني" required>
+        </div>
+        <div class="form-row">
+          <input type="text" name="subject" placeholder="الموضوع" required>
+        </div>
+        <div class="form-row">
+          <textarea name="message" placeholder="نص الرسالة..." required></textarea>
+        </div>
+        <div style="display:flex;justify-content:space-between;align-items:center;gap:10px">
+          <div class="small">
+            الهاتف: 0123-456-789<br>العنوان: شارع الثقافة، القاهرة
+          </div>
+          <button class="btn" type="submit">أرسل الرسالة</button>
+        </div>
+      </form>
+    </section>
+
+    <footer class="footer" style="margin-top:18px">
+      <div>© 2025 مكتبة جميلة</div>
+      <div>تابعنا على: @maktbah</div>
+    </footer>
+  </div>
+</body>
+</html>
+
